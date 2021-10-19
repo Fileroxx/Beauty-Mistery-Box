@@ -49,13 +49,19 @@ button {
 }
 
 #main {
-  background: url("../img/bgHero.png");
+  background: url("../img/bg1.png");
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 10rem;
   padding-bottom: 15rem;
   color: #fff;
   font-family: "Inter", sans-serif;
+}
+
+#main .boxes img {
+  -webkit-animation: MoveUpDown 2s linear infinite;
+  animation: MoveUpDown 2s linear infinite;
+  position: relative;
 }
 
 #main h1 {
@@ -145,6 +151,11 @@ button {
   box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.08);
   padding: 4rem 0;
   justify-content: center;
+}
+
+#section1 .cardBeneficios .linha img {
+  width: 80%;
+  margin-top: 1rem;
 }
 
 #section1 .cardBeneficios .titulo {
@@ -433,16 +444,38 @@ button {
 .coluna2 {
   display: flex;
   margin-top: 2rem;
-  justify-content: space-around;
 }
 
-#section3 h4 {
-  font-weight: 700;
+#section3 .card1 {
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  padding: 1.8rem 2rem;
+  width: 300px;
 }
 
-#section3 p {
-  padding-right: 3rem;
-  color: #2f323b;
+#section3 .card2 {
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  padding: 1.8rem 2rem;
+  width: 300px;
+  text-align: left;
+}
+
+#section3 .card3 {
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  padding: 1.8rem 2rem;
+  margin-top: 1rem;
+  width: 300px;
+  text-align: left;
+}
+
+#section3 .card4 {
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  padding: 1rem 2rem;
+  margin-top: 1rem;
+  width: 300px;
 }
 
 #section3 .linha {
@@ -586,6 +619,128 @@ footer .icones img {
   height: 25px;
 }
 
+@media screen and (min-width: 768px) and (max-width: 999px) {
+  #main .boxes img {
+    margin-top: 4rem;
+  }
+
+  #section1 .imagens {
+  }
+
+  #section1 .imagens img {
+    width: 37%;
+  }
+
+  #section1 .section2 .texto .t2 h1 {
+    font-size: 3.5rem;
+  }
+
+  #section1 .section2 .texto .p2 p {
+    padding: 0;
+    margin: 0;
+    padding-right: 3rem;
+    padding-top: 1rem;
+  }
+
+  #section1 .sectionGallery .titulo {
+    flex-direction: column;
+  }
+
+  #section1 .sectionGallery .card2,
+  .card3 {
+    margin: 0 0.5rem;
+  }
+
+  #section1 .sectionGallery .card2 {
+    margin-top: 3rem;
+  }
+
+  #section2 .cardsProdutos .card1 {
+    position: relative;
+    background: #fff;
+    width: 500px;
+    margin: auto;
+    margin-top: 3rem;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+  }
+
+  #section2 .cardsProdutos .card2 {
+    position: relative;
+    background: #fff;
+    width: 500px;
+    margin: auto;
+    margin-top: 3rem;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+  }
+
+  #section2 .cardsProdutos .card3 {
+    position: relative;
+    background: #fff;
+    margin-top: 3rem;
+    margin: auto;
+    margin-top: 3rem;
+    width: 500px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+  }
+
+  #section1 .cardBeneficios .linha img {
+    width: 30%;
+    margin-top: 1rem;
+  }
+
+  #section2 .detalhes p {
+    margin: 0;
+    margin-top: 2rem;
+  }
+
+  #section3 .titulo img {
+    margin-top: 3rem;
+  }
+
+  #section3 .card1,
+  .card2,
+  .card3,
+  .card4 {
+    margin: auto;
+  }
+
+  #section3 .card4 {
+    margin-bottom: 6rem;
+  }
+
+  #section3 .linha img {
+    margin-top: -1rem;
+  }
+
+  #section4 .imagem {
+    text-align: center;
+  }
+
+  #section4 .texto {
+    width: 500px;
+  }
+
+  #section4 .imagem img {
+    width: 15%;
+    margin-bottom: 2rem;
+  }
+
+  #newsletter .newsletter {
+    width: 500px;
+  }
+
+  #newsletter .suport {
+    display: none;
+  }
+
+  footer .icones {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 458px) {
   h1 {
     font-size: 2.5rem;
@@ -603,6 +758,14 @@ footer .icones img {
   #main img {
     padding: 0;
     margin: 0;
+  }
+
+  #main .boxes img {
+    margin-top: 3rem;
+  }
+
+  #section1 {
+    padding: 0;
   }
 
   #section1 h1 {
@@ -746,6 +909,24 @@ footer .icones img {
     display: none;
   }
 
+  #section3 .imagem img {
+    width: 90%;
+  }
+
+  #section3 .card1,
+  .card2,
+  .card3,
+  .card4 {
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  #section3 p {
+    padding: 0;
+    text-align: left;
+  }
+
   #section4 .texto {
     width: 300px;
   }
@@ -776,5 +957,48 @@ footer .icones img {
 
   #newsletter input {
     padding: 1rem 3rem;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 320px) {
+  #main h1 {
+    font-size: 2rem;
+  }
+
+  #main p {
+    font-size: 1rem;
+  }
+
+  #section1 h1 {
+    font-size: 2rem;
+  }
+
+  #section1 p {
+    font-size: 1rem;
+  }
+
+  #section1 .t2 h1 {
+    font-size: 2rem;
+  }
+
+  #section1 .sectionNumbers .n1 h4 {
+    font-size: 1.1rem;
+  }
+
+  #section1 .sectionNumbers .n1 .textNumber p {
+    font-size: 1rem;
+    padding: 0;
+  }
+
+  #section1 .sectionGallery .card1 h4 {
+    padding-top: 2rem;
+  }
+
+  #section1 .sectionGallery .card2 h4 {
+    padding-top: 2rem;
+  }
+
+  #section1 .sectionGallery .card3 h4 {
+    padding-top: 2rem;
   }
 }
