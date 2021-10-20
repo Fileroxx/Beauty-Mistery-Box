@@ -151,6 +151,7 @@ button {
   box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.08);
   padding: 4rem 0;
   justify-content: center;
+  margin-top: 2rem;
 }
 
 #section1 .cardBeneficios .linha img {
@@ -448,6 +449,7 @@ button {
 
 #section3 .card1 {
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.08);
+  border: 1px solid #000000;
   border-radius: 10px;
   padding: 1.8rem 2rem;
   width: 300px;
@@ -455,6 +457,7 @@ button {
 
 #section3 .card2 {
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.08);
+  border: 1px solid #000000;
   border-radius: 10px;
   padding: 1.8rem 2rem;
   width: 300px;
@@ -463,6 +466,7 @@ button {
 
 #section3 .card3 {
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.08);
+  border: 1px solid #000000;
   border-radius: 10px;
   padding: 1.8rem 2rem;
   margin-top: 1rem;
@@ -472,6 +476,7 @@ button {
 
 #section3 .card4 {
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.08);
+  border: 1px solid #000000;
   border-radius: 10px;
   padding: 1rem 2rem;
   margin-top: 1rem;
@@ -619,7 +624,163 @@ footer .icones img {
   height: 25px;
 }
 
-@media screen and (min-width: 768px) and (max-width: 999px) {
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+  #section1 .sectionNumbers .n1 .textNumber h4 {
+    font-size: 1.5rem;
+  }
+
+  #section1 .sectionNumbers .n1 .textNumber p {
+    font-size: 1rem;
+    padding: 0;
+  }
+
+  #section2 .cardsProdutos .card1 {
+    width: 300px;
+  }
+
+  #section2 .cardsProdutos .card2 {
+    width: 300px;
+  }
+
+  #section2 .cardsProdutos .card3 {
+    width: 300px;
+  }
+
+  #section2 .cardsProdutos button {
+    padding: 0.5rem 5rem;
+  }
+
+  #section3 .card1 {
+    width: 250px;
+  }
+
+  #section3 .card2 {
+    width: 250px;
+  }
+
+  #section3 .card3 {
+    width: 250px;
+  }
+
+  #section3 .card4 {
+    width: 250px;
+    margin-bottom: 8rem;
+  }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1199px) {
+  #main h1 {
+    font-size: 3rem;
+  }
+
+  #main p {
+    font-size: 1.3rem;
+  }
+
+  #section1 h1 {
+    font-size: 3rem;
+  }
+
+  #section1 .t2 h1 {
+    font-size: 3rem;
+  }
+
+  #section1 .p2 {
+    margin: 0;
+    padding: 0;
+  }
+
+  #section1 .p2 p {
+    font-size: 1.1rem;
+    margin: 0;
+    padding: 0;
+  }
+
+  #section1 .sectionNumbers .n1 .textNumber h4 {
+    font-size: 1.1rem;
+    padding: 0;
+  }
+
+  #section1 .sectionNumbers .n1 .textNumber p {
+    font-size: 1rem;
+    padding: 0;
+  }
+
+  #section1 .sectionGallery .card1 h4 {
+    padding: 0;
+    margin: 0;
+    padding-top: 8rem;
+  }
+
+  #section1 .sectionGallery .card2 h4 {
+    padding: 0;
+    margin: 0;
+    padding-top: 8rem;
+  }
+
+  #section1 .sectionGallery .card3 h4 {
+    padding: 0;
+    margin: 0;
+    padding-top: 8rem;
+  }
+
+  #section2 .cardsProdutos .card1 {
+    width: 300px;
+  }
+
+  #section2 .cardsProdutos .card2 {
+    width: 300px;
+  }
+
+  #section2 .cardsProdutos .card3 {
+    width: 300px;
+  }
+
+  #section2 .cardsProdutos button {
+    padding: 0.5rem 5rem;
+  }
+
+  #section3 .titulo h1 {
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+    padding: 0;
+  }
+
+  #section3 .card1 {
+    width: 200px;
+  }
+
+  #section3 .card2 {
+    width: 200px;
+  }
+
+  #section3 .card3 {
+    width: 200px;
+  }
+
+  #section3 .card4 {
+    width: 200px;
+    margin-bottom: 6rem;
+  }
+
+  #section3 .imagem img {
+    margin-top: 10rem;
+  }
+
+  #section4 .texto {
+    width: 600px;
+  }
+
+  #newsletter .newsletter {
+    width: 700px;
+  }
+
+  #newsletter input {
+    padding: 0.8rem 4rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
   #main .boxes img {
     margin-top: 4rem;
   }
@@ -705,6 +866,7 @@ footer .icones img {
   .card3,
   .card4 {
     margin: auto;
+    margin-top: 1rem;
   }
 
   #section3 .card4 {
@@ -834,6 +996,14 @@ footer .icones img {
 
   #section1 .sectionGallery .card2 {
     margin-top: 3rem;
+  }
+
+  #section1 .titulokits .titulo {
+    margin: 0;
+  }
+
+  #section1 .criar {
+    padding-bottom: 0rem;
   }
 
   #section2 .cardsProdutos .card1 {
