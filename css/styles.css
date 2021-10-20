@@ -652,19 +652,23 @@ footer .icones img {
 
   #section3 .card1 {
     width: 250px;
+    padding: 1rem;
   }
 
   #section3 .card2 {
     width: 250px;
+    padding: 1rem;
   }
 
   #section3 .card3 {
     width: 250px;
+    padding: 1.2rem;
   }
 
   #section3 .card4 {
     width: 250px;
     margin-bottom: 8rem;
+    padding: 1rem;
   }
 }
 
@@ -748,19 +752,23 @@ footer .icones img {
 
   #section3 .card1 {
     width: 200px;
+    padding: 0.5rem;
   }
 
   #section3 .card2 {
     width: 200px;
+    padding: 0.5rem;
   }
 
   #section3 .card3 {
     width: 200px;
+    padding: 0.5rem;
   }
 
   #section3 .card4 {
     width: 200px;
     margin-bottom: 6rem;
+    padding: 0.5rem;
   }
 
   #section3 .imagem img {
@@ -900,6 +908,233 @@ footer .icones img {
 
   footer .icones {
     display: none;
+  }
+}
+
+@media screen and (min-width: 459px) and (max-width: 767px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  #main h1 {
+    font-size: 2.5rem;
+    padding: 0;
+  }
+
+  #main p {
+    font-size: 1.3rem;
+  }
+
+  #main img {
+    padding: 0;
+    margin: 0;
+  }
+
+  #main .boxes img {
+    margin-top: 3rem;
+  }
+
+  #section1 {
+    padding: 0;
+  }
+
+  #section1 h1 {
+    font-size: 2.5rem;
+  }
+
+  #section1 .imagens img {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+  }
+
+  #section1 .cardBeneficios {
+    padding: 0;
+    padding-top: 3rem;
+    margin: 0;
+  }
+
+  #section1 .linha {
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+  #section1 .linha img {
+    width: 50%;
+  }
+
+  #section1 .cardBeneficios .titulo img {
+    margin-top: 1rem;
+    padding-right: 10px;
+  }
+
+  #section1 .cardBeneficios .titulo h5 {
+    padding: 0;
+    font-size: 1.3rem;
+    padding-top: 2rem;
+  }
+
+  #section1 .cardBeneficios p {
+    padding: 0;
+  }
+
+  #section1 .section2 .texto .t2 h1 {
+    padding: 0;
+    padding-top: 2rem;
+    font-size: 2.5rem !important;
+  }
+
+  #section1 .section2 .texto .p2 p {
+    padding: 0;
+    margin: 0;
+  }
+
+  #section1 .criar button {
+    margin: auto;
+    margin-top: 2rem;
+  }
+
+  #section1 .sectionGallery .titulo {
+    flex-direction: column;
+  }
+
+  #section1 .sectionGallery .card2,
+  .card3 {
+    margin: 0 0.5rem;
+  }
+
+  #section1 .sectionGallery .card2 {
+    margin-top: 3rem;
+  }
+
+  #section1 .titulokits .titulo {
+    margin: 0;
+  }
+
+  #section1 .criar {
+    padding-bottom: 0rem;
+  }
+
+  #section2 .cardsProdutos .card1 {
+    position: relative;
+    background: #fff;
+    width: 300px;
+    margin: auto;
+    margin-top: 3rem;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+  }
+
+  #section2 .cardsProdutos .card2 {
+    position: relative;
+    background: #fff;
+    width: 300px;
+    margin: auto;
+    margin-top: 3rem;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+  }
+
+  #section2 .cardsProdutos .card3 {
+    position: relative;
+    background: #fff;
+    margin-top: 3rem;
+    margin: auto;
+    margin-top: 3rem;
+    width: 300px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+  }
+
+  #section2 .cardsProdutos button {
+    padding: 0.5rem 5rem;
+  }
+
+  #section2 .detalhes p {
+    padding: 0;
+    margin: 0;
+    margin-top: 2rem;
+    font-size: 0.8rem;
+  }
+
+  #section2 .empresas {
+    margin: 0;
+    margin-top: 3rem;
+  }
+
+  #section2 .empresas img {
+    width: 100%;
+  }
+
+  #section3 {
+    padding-top: 3rem;
+  }
+
+  #section3 .titulo h1 {
+    padding: 0;
+    margin: 0;
+    padding-top: 1rem;
+  }
+
+  #section3 .titulo img {
+    margin-top: 3rem;
+  }
+
+  #section3 .coluna2 {
+    margin-bottom: 2rem;
+  }
+
+  #section3 .linha {
+    display: none;
+  }
+
+  #section3 .imagem img {
+    width: 90%;
+  }
+
+  #section3 .card1,
+  .card2,
+  .card3,
+  .card4 {
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  #section3 p {
+    padding: 0;
+    text-align: left;
+  }
+
+  #section4 .texto {
+    width: 300px;
+  }
+
+  #section4 .card1 {
+    width: 300px;
+  }
+
+  #section4 .card1 .imagem {
+    text-align: center;
+  }
+
+  #section4 .card1 img {
+    width: 15%;
+    margin: auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  #newsletter .newsletter {
+    width: 300px;
+    text-align: left;
+  }
+
+  #newsletter .newsletter .suport {
+    display: none;
+  }
+
+  #newsletter input {
+    padding: 1rem 3rem;
   }
 }
 
