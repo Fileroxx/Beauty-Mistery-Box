@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #0b0a0e;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #dcb058;
+  border-radius: 10px;
+}
+
+nav {
+  background-color: #0b0a0e;
+  color: #fff !important;
+  padding: 1rem 0 !important;
+}
+
+nav .navbar-toggler {
+  border: none !important;
+}
+
+.navbar-nav {
+  margin: auto;
+}
+
+.navbar-nav a {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+}
+
+button {
+  font-weight: 600;
+  border: 1px solid #8193b2 !important;
+  padding: 0.5rem 2rem;
+  background: none;
+  border-radius: 10px;
+}
+
+#section2 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  text-align: center;
+}
+
+#section2 .select h4 {
+  text-align: center;
+}
+
+#section2 .select p {
+  font-size: 1.2rem;
+}
+
+#section2 h4 {
+  text-align: left;
+  font-weight: 800;
+  font-size: 1.6rem;
+  color: #232323;
+}
+
+#section2 .monthly {
+  border: 1px solid #000000;
+  width: 60%;
+  margin-top: 2rem !important;
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: left;
+  margin: 0 auto;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.08);
+}
+
+#section2 .checkbox {
+  text-align: center;
+  padding-top: 1rem;
+}
+
+#section2 .checkbox input[type="radio"] {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #fff;
+}
+
+#section2 .checkbox input[type="radio"]::after {
+}
+
+#section2 .semester {
+  border: 1px solid #000000;
+  width: 60%;
+  margin-top: 2rem !important;
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: left;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.08);
+  margin: 0 auto;
+}
+
+#section2 .valor h4 {
+  font-weight: 700;
+  padding-top: 1rem;
+}
+
+#section2 .annually {
+  border: 1px solid #000000;
+  width: 60%;
+  margin-top: 2rem !important;
+  padding: 2rem;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  text-align: left;
+  margin: 0 auto;
+}
+
+#section2 button {
+  background: #12121a;
+  color: #fff;
+  width: 60%;
+  margin-top: 2rem;
+  border: 0;
+  padding: 1rem;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+#newsletter {
+  background: linear-gradient(199.58deg, #12121a -3.47%, #302f3c 125.01%);
+  color: #fff;
+  padding: 4rem 0;
+}
+
+#newsletter a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 300;
+}
+
+#newsletter h5 {
+  font-weight: 600;
+}
+
+#newsletter h4 {
+  font-weight: 300;
+  font-size: 2rem;
+}
+
+#newsletter p {
+  font-size: 1.2rem;
+  font-weight: 300;
+  padding-top: 1rem;
+}
+
+#newsletter input {
+  padding: 0.8rem 10rem;
+  border-radius: 10px;
+  background: #383840;
+  outline: 0;
+  border: 0;
+  color: #fff;
+  margin-top: 1rem;
+}
+
+footer {
+  background: #13121a;
+  text-align: center;
+  color: #fff;
+  padding: 2rem 0;
+  display: flex;
+  align-items: center;
+}
+
+footer p {
+  padding-top: 1rem;
+}
+
+footer .logo img {
+  width: 30%;
+}
+
+footer .icones img {
+  width: 25px;
+  height: 25px;
+}
+
+@media screen and (max-width: 767px) {
+  #section2 .monthly {
+    text-align: center;
+  }
+
+  #section2 .monthly h4 {
+    text-align: center;
+  }
+
+  #section2 .semester {
+    text-align: center;
+  }
+
+  #section2 .semester h4 {
+    text-align: center;
+  }
+
+  #section2 .annually {
+    text-align: center;
+  }
+
+  #section2 .annually h4 {
+    text-align: center;
+  }
+}

@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #0b0a0e;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #dcb058;
+  border-radius: 10px;
+}
+
+nav {
+  background-color: #0b0a0e;
+  color: #fff !important;
+  padding: 1rem 0 !important;
+}
+
+nav .navbar-toggler {
+  border: none !important;
+}
+
+.navbar-nav {
+  margin: auto;
+}
+
+.navbar-nav a {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+}
+
+button {
+  font-weight: 600;
+  border: 1px solid #8193b2 !important;
+  padding: 0.5rem 2rem;
+  background: none;
+  border-radius: 10px;
+}
+
+#newsletter {
+  background: linear-gradient(199.58deg, #12121a -3.47%, #302f3c 125.01%);
+  color: #fff;
+  padding: 4rem 0;
+}
+
+#newsletter a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 300;
+}
+
+#newsletter h5 {
+  font-weight: 600;
+}
+
+#newsletter h4 {
+  font-weight: 300;
+  font-size: 2rem;
+}
+
+#newsletter p {
+  font-size: 1.2rem;
+  font-weight: 300;
+  padding-top: 1rem;
+}
+
+#newsletter input {
+  padding: 0.8rem 10rem;
+  border-radius: 10px;
+  background: #383840;
+  outline: 0;
+  border: 0;
+  color: #fff;
+  margin-top: 1rem;
+}
+
+footer {
+  background: #13121a;
+  text-align: center;
+  color: #fff;
+  padding: 2rem 0;
+  display: flex;
+  align-items: center;
+}
+
+footer p {
+  padding-top: 1rem;
+}
+
+footer .logo img {
+  width: 30%;
+}
+
+footer .icones img {
+  width: 25px;
+  height: 25px;
+}
