@@ -323,7 +323,7 @@ button {
   position: absolute;
   background: #fff;
   width: 400px;
-  margin-top: -10rem;
+  margin-top: -8rem;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.08);
   border-radius: 10px;
   height: auto;
@@ -333,7 +333,7 @@ button {
   position: absolute;
   background: #fff;
   width: 400px;
-  margin-top: -10rem;
+  margin-top: -8rem;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.08);
   border-radius: 10px;
 
@@ -344,7 +344,7 @@ button {
   position: absolute;
   background: #fff;
   width: 400px;
-  margin-top: -10rem;
+  margin-top: -8rem;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.08);
   border-radius: 10px;
   height: auto;
@@ -972,8 +972,12 @@ footer .icones img {
     margin: 0 0.5rem;
   }
 
-  #section1 .sectionGallery .card2 {
-    margin-top: 3rem;
+  #section1 .sectionGallery .card2 img {
+    margin-top: -2rem;
+  }
+
+  #section1 .sectionGallery .card3 img {
+    margin-top: -3rem;
   }
 
   #section1 .titulokits .titulo {
@@ -1000,7 +1004,7 @@ footer .icones img {
     background: #fff;
     width: 300px;
     margin: auto;
-    margin-top: 3rem;
+    margin-top: 1rem;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.08);
     border-radius: 10px;
     height: auto;
@@ -1011,7 +1015,7 @@ footer .icones img {
     background: #fff;
     margin-top: 3rem;
     margin: auto;
-    margin-top: 3rem;
+    margin-top: 1rem;
     width: 300px;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.08);
     border-radius: 10px;
@@ -1197,8 +1201,12 @@ footer .icones img {
     flex-direction: column;
   }
 
-  #section1 .sectionGallery .card2 {
-    margin-top: 3rem;
+  #section1 .sectionGallery .card2 img {
+    margin-top: -4rem;
+  }
+
+  #section1 .sectionGallery .card3 img {
+    margin-top: -7rem;
   }
 
   #section1 .titulokits .titulo {
@@ -1265,6 +1273,7 @@ footer .icones img {
 
   #section3 {
     padding-top: 3rem;
+    padding-bottom: 3rem;
   }
 
   #section3 .titulo h1 {
