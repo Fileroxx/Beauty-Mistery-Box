@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #0b0a0e;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #dcb058;
+  border-radius: 10px;
+}
+
+nav {
+  background-color: #0b0a0e;
+  color: #fff !important;
+  padding: 1rem 0 !important;
+}
+
+nav .navbar-toggler {
+  border: none !important;
+}
+
+.navbar-nav {
+  margin: auto;
+}
+
+.navbar-nav a {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+}
+
+button {
+  font-weight: 600;
+  border: 1px solid #8193b2 !important;
+  padding: 0.5rem 2rem;
+  background: none;
+  border-radius: 10px;
+}
+
+#section1 {
+  background: url("../img/obrigado.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  color: #fff;
+}
+
+#section1 h1 {
+  padding-top: 10rem;
+  font-size: 4rem;
+}
+
+#section1 p {
+  padding-right: 40rem;
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #d3d3d3;
+  padding-top: 1rem;
+}
+
+#section1 button {
+  background: #e51dd1;
+  color: #fff;
+  border: 0 !important;
+  width: 30%;
+  padding: 1rem;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-top: 3rem;
+  outline: none;
+}
+
+footer {
+  background: #13121a;
+  text-align: center;
+  color: #fff;
+  padding: 2rem 0;
+  display: flex;
+  align-items: center;
+}
+
+footer p {
+  padding-top: 1rem;
+}
+
+footer .logo img {
+  width: 30%;
+}
+
+footer .icones img {
+  width: 25px;
+  height: 25px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  #section1 {
+    padding: 1rem;
+  }
+
+  #section1 p {
+    padding: 0rem;
+  }
+
+  #section1 button {
+    width: 90%;
+  }
+
+  footer .icones {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #section1 {
+    padding: 1rem;
+  }
+
+  #section1 p {
+    padding: 0rem;
+  }
+
+  #section1 button {
+    width: 90%;
+  }
+
+  footer .icones {
+    display: none;
+  }
+}

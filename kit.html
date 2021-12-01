@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon"> 
     <title>Monthly - Beauty Mistery Box</title>
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -97,7 +98,7 @@
                                 
                                 <div class="checkbox">
                                     <label for="k1">
-                                        <input value="1" type="radio" name="radio" id="k1">
+                                        <input onclick="location.href='/checkout1.html'"value="1" type="radio" name="kit" id="k1" data-href="127.0.0.1:5501/checkout1.html">
                                     </label>
                                     
                                 </div>
@@ -131,7 +132,7 @@
                             <div class="col-md-3 col-lg-4">
                                 <div class="checkbox">
                                     <label for="k2">
-                                        <input type="radio" name="radio" id="k2">
+                                        <input onclick="location.href='/checkout2.html'" type="radio" name="kit" id="k2">
                                     </label>
                                 </div>
                             </div>
@@ -163,8 +164,8 @@
 
                             <div class="col-md-3 col-lg-4">
                                 <div class="checkbox">
-                                    <label  for="k3">
-                                        <input type="radio" name="radio" id="k3">
+                                    <label>
+                                        <input onclick="location.href='/checkout3.html'" type="radio" value="k3" name="kit" id="k3" data-href="https://globo.com">
                                     </label>
                                 </div>
                             </div>
@@ -172,10 +173,11 @@
                         </div>
                     </div>
 
-                    <a href="/register.html">
-                        <button type="button">CONTINUE</button>
+                    <a href="" class="LinkBotao" id="button">
+                        <button type="submit">CONTINUE</button>
                     </a>
-              
+                        
+                                  
 
                 </form>
 
@@ -193,6 +195,11 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="js/index.js"></script>
+
+
 
 
 </body>

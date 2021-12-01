@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #0b0a0e;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #dcb058;
+  border-radius: 10px;
+}
+
+nav {
+  background-color: #0b0a0e;
+  color: #fff !important;
+  padding: 1rem 0 !important;
+}
+
+nav .navbar-toggler {
+  border: none !important;
+}
+
+.navbar-nav {
+  margin: auto;
+}
+
+.navbar-nav a {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+}
+
+#section1 {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  text-align: center;
+}
+
+#section1 h4 {
+  font-weight: 600;
+}
+
+#section1 p {
+  margin-bottom: 3rem;
+  margin-top: 1rem;
+}
+
+#section1 input {
+  width: 60%;
+  padding: 1rem;
+  margin-top: 0rem;
+  margin-bottom: 1rem;
+  border-radius: 15px;
+  border: 1px solid #b5b5b5;
+  outline: none;
+  color: #000;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.08);
+}
+
+#section1 .botao button {
+  background: #fff;
+  width: 60%;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 10px;
+  border: 1px solid #110c12;
+  font-size: 1.3rem;
+  font-weight: 600;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.08);
+}
+
+#section1 .forget {
+  margin-top: 3rem;
+}
+
+#section1 .forget a {
+  color: #f4477d;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+#section1 .forget p {
+  font-weight: 700;
+}
+
+#section1 .forget .auth .facebook {
+  background: #1877f2;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  width: 30%;
+  padding: 1.5rem;
+}
+
+#section1 .forget .auth .google {
+  background: #fff;
+  color: #0b0a0e;
+  border: 1px solid #0b0a0e;
+  border-radius: 10px;
+  width: 30%;
+  padding: 1.5rem;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  #section1 input {
+    width: 60%;
+  }
+
+  #section1 .botao button {
+    width: 60%;
+  }
+
+  #section1 .forget .auth .facebook {
+    width: 60%;
+  }
+
+  #section1 .forget .auth .google {
+    width: 60%;
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #section1 input {
+    width: 90%;
+  }
+
+  #section1 .botao button {
+    width: 90%;
+  }
+
+  #section1 .forget .auth .facebook {
+    width: 90%;
+  }
+
+  #section1 .forget .auth .google {
+    width: 90%;
+    margin-top: 2rem;
+  }
+}

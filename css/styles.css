@@ -270,54 +270,25 @@ button {
 }
 
 #section1 .sectionGallery .card1 {
-  background: url("../img/mulher01.png");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  padding: 3rem;
   margin-top: 2rem;
 }
 
-#section1 .sectionGallery .card1 h4 {
-  padding-top: 15rem;
-  font-size: 2rem;
-  font-weight: 700;
+#section1 .sectionGallery .card1 img {
+  width: 100%;
 }
 
-#section1 .sectionGallery .card2 {
-  background: url("../img/mulher02.png");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  padding: 3rem;
-  margin-top: 2rem;
+#section1 .sectionGallery .card2 img {
+  width: 100%;
 }
 
-#section1 .sectionGallery .card2 h4 {
-  padding-top: 15rem;
-  font-size: 2rem;
-  font-weight: 700;
-  text-align: left;
-}
-
-#section1 .sectionGallery .card2 p {
-  text-align: left;
-}
-
-#section1 .sectionGallery .card3 {
-  background: url("../img/mulher03.png");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  padding: 3rem;
-  margin-top: 2rem;
+#section1 .sectionGallery .card3 img {
+  width: 100%;
 }
 
 #section1 .sectionGallery .card3 h4 {
   padding-top: 15rem;
   font-size: 2rem;
   font-weight: 700;
-  text-align: left;
-}
-
-#section1 .sectionGallery .card3 p {
   text-align: left;
 }
 
@@ -355,7 +326,7 @@ button {
   margin-top: -10rem;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.08);
   border-radius: 10px;
-  height: 55vh;
+  height: auto;
 }
 
 #section2 .cardsProdutos .card2 {
@@ -366,7 +337,7 @@ button {
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.08);
   border-radius: 10px;
 
-  height: 55vh;
+  height: auto;
 }
 
 #section2 .cardsProdutos .card3 {
@@ -376,7 +347,7 @@ button {
   margin-top: -10rem;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.08);
   border-radius: 10px;
-  height: 55vh;
+  height: auto;
 }
 
 #section2 .card1,
@@ -644,17 +615,17 @@ footer .icones img {
 
   #section2 .cardsProdutos .card1 {
     width: 300px;
-    height: 50vh;
+    height: auto;
   }
 
   #section2 .cardsProdutos .card2 {
     width: 300px;
-    height: 50vh;
+    height: auto;
   }
 
   #section2 .cardsProdutos .card3 {
     width: 300px;
-    height: 50vh;
+    height: auto;
   }
 
   #section2 .cardsProdutos button {
@@ -721,37 +692,19 @@ footer .icones img {
     padding: 0;
   }
 
-  #section1 .sectionGallery .card1 h4 {
-    padding: 0;
-    margin: 0;
-    padding-top: 8rem;
-  }
-
-  #section1 .sectionGallery .card2 h4 {
-    padding: 0;
-    margin: 0;
-    padding-top: 8rem;
-  }
-
-  #section1 .sectionGallery .card3 h4 {
-    padding: 0;
-    margin: 0;
-    padding-top: 8rem;
-  }
-
   #section2 .cardsProdutos .card1 {
     width: 300px;
-    height: 50vh;
+    height: auto;
   }
 
   #section2 .cardsProdutos .card2 {
     width: 300px;
-    height: 50vh;
+    height: auto;
   }
 
   #section2 .cardsProdutos .card3 {
     width: 300px;
-    height: 50vh;
+    height: auto;
   }
 
   #section2 .cardsProdutos button {
@@ -846,7 +799,7 @@ footer .icones img {
     margin-top: 3rem;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.08);
     border-radius: 10px;
-    height: 60vh;
+    height: auto;
   }
 
   #section2 .cardsProdutos .card2 {
@@ -857,7 +810,7 @@ footer .icones img {
     margin-top: 3rem;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.08);
     border-radius: 10px;
-    height: 60vh;
+    height: auto;
   }
 
   #section2 .cardsProdutos .card3 {
@@ -869,7 +822,7 @@ footer .icones img {
     width: 500px;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.08);
     border-radius: 10px;
-    height: 60vh;
+    height: auto;
   }
 
   #section1 .cardBeneficios .linha img {
@@ -1039,7 +992,7 @@ footer .icones img {
     margin-top: 3rem;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.08);
     border-radius: 10px;
-    height: 50vh;
+    height: auto;
   }
 
   #section2 .cardsProdutos .card2 {
@@ -1050,7 +1003,7 @@ footer .icones img {
     margin-top: 3rem;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.08);
     border-radius: 10px;
-    height: 50vh;
+    height: auto;
   }
 
   #section2 .cardsProdutos .card3 {
@@ -1062,7 +1015,7 @@ footer .icones img {
     width: 300px;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.08);
     border-radius: 10px;
-    height: 50vh;
+    height: auto;
   }
 
   #section2 .cardsProdutos button {
@@ -1244,11 +1197,6 @@ footer .icones img {
     flex-direction: column;
   }
 
-  #section1 .sectionGallery .card2,
-  .card3 {
-    margin: 0 0.5rem;
-  }
-
   #section1 .sectionGallery .card2 {
     margin-top: 3rem;
   }
@@ -1269,7 +1217,7 @@ footer .icones img {
     margin-top: 3rem;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.08);
     border-radius: 10px;
-    height: 70vh;
+    height: auto;
   }
 
   #section2 .cardsProdutos .card2 {
@@ -1280,7 +1228,7 @@ footer .icones img {
     margin-top: 3rem;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.08);
     border-radius: 10px;
-    height: 70vh;
+    height: auto;
   }
 
   #section2 .cardsProdutos .card3 {
@@ -1292,7 +1240,7 @@ footer .icones img {
     width: 300px;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.08);
     border-radius: 10px;
-    height: 70vh;
+    height: auto;
   }
 
   #section2 .cardsProdutos button {

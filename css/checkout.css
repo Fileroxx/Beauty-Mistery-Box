@@ -52,6 +52,165 @@ button {
   border-radius: 10px;
 }
 
+#section1 {
+  padding-top: 10rem;
+}
+
+#section1 .checkout {
+  border: 1px solid #d2d2d2;
+  border-radius: 20px;
+  padding: 0rem;
+}
+
+#section1 .checkout .order {
+  border: 1px solid #d2d2d2;
+  padding: 2rem;
+  text-align: center;
+}
+
+#section1 .checkout .order h4 {
+  font-weight: 700;
+}
+
+#section1 .checkout .order p {
+  color: #b9b9b9;
+}
+
+#section1 .checkout .order input {
+  padding: 0.8rem;
+  border-radius: 10px;
+  border: 1px solid #d2d2d2;
+  width: 90%;
+  color: #b9b9b9;
+  outline: none;
+  font-weight: 300;
+}
+
+#section1 .checkout .order .total {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 2rem;
+}
+
+#section1 .checkout .adress {
+  padding: 2rem;
+}
+
+#section1 .checkout .adress input {
+  border: 1px solid #d2d2d2;
+  width: 100%;
+  margin: 1rem;
+  padding: 0.8rem;
+  margin-left: 0;
+  border-radius: 15px;
+  outline: none;
+}
+
+#section1 .checkout .adress .coluna1,
+.coluna2,
+.coluna3 {
+  display: flex;
+  justify-content: space-around;
+}
+
+#section1 .checkout .adress .coluna1 input {
+  width: 50%;
+  margin: 1rem;
+  padding: 0.8rem;
+  margin-left: 0;
+  border-radius: 15px;
+  outline: none;
+}
+
+#section1 .payment {
+  border: 1px solid #d2d2d2;
+  border-radius: 20px;
+  padding: 5rem;
+  margin-top: 3rem;
+}
+
+#section1 .payment h4 {
+  font-weight: 700;
+}
+
+#section1 .payment .coluna1 {
+  display: flex;
+  padding-top: 1rem;
+  justify-content: left;
+  align-items: center;
+}
+
+#section1 .payment .coluna1 input {
+  width: 50%;
+  padding: 1rem;
+  border-radius: 15px;
+  border: 1px solid #d2d2d2;
+  outline: none;
+  font-size: 1.2rem;
+  color: #383840;
+}
+
+#section1 .payment .coluna1 img {
+  padding-left: 1rem;
+  width: 30%;
+  height: 30%;
+}
+
+#section1 .payment .coluna2 {
+  padding-top: 2rem;
+}
+
+#section1 .payment .coluna2 input {
+  width: 50%;
+  margin-right: 1rem;
+  padding: 1rem;
+  border: 1px solid #d2d2d2;
+  border-radius: 15px;
+  outline: none;
+}
+
+#section1 .agree {
+  padding-top: 2rem;
+}
+
+#section1 .agree p {
+  color: #b9b9b9;
+}
+
+#section1 .paypal {
+  border: 1px solid #d2d2d2;
+  border-radius: 20px;
+  padding: 1.5rem;
+  margin-top: 3rem;
+}
+
+#section1 .imagem {
+  text-align: center;
+}
+
+#section1 .imagem img {
+  width: 50%;
+  margin: 0 auto;
+}
+
+#section1 .texto p {
+  color: #b9b9b9;
+}
+
+#section1 .botao {
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+#section1 .botao button {
+  width: 50%;
+  padding: 1rem;
+  background: #000000;
+  color: #fff;
+  font-size: 1.3rem;
+}
+
 #newsletter {
   background: linear-gradient(199.58deg, #12121a -3.47%, #302f3c 125.01%);
   color: #fff;
@@ -109,4 +268,96 @@ footer .logo img {
 footer .icones img {
   width: 25px;
   height: 25px;
+}
+
+.form-switch {
+  display: inline-block;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.form-switch i {
+  position: relative;
+  display: inline-block;
+  margin-right: 0rem;
+  margin-top: 2rem;
+  width: 46px;
+  height: 26px;
+  background-color: #8d8d8d;
+  border-radius: 23px;
+  vertical-align: text-bottom;
+  transition: all 0.3s linear;
+}
+
+.form-switch i::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 42px;
+  height: 22px;
+  background-color: #8d8d8d;
+  border-radius: 11px;
+  transform: translate3d(2px, 2px, 0) scale3d(1, 1, 1);
+  transition: all 0.25s linear;
+}
+
+.form-switch i::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 22px;
+  height: 22px;
+  background-color: #fff;
+  border-radius: 11px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.24);
+  transform: translate3d(2px, 2px, 0);
+  transition: all 0.2s ease-in-out;
+}
+
+.form-switch:active i::after {
+  width: 28px;
+  transform: translate3d(2px, 2px, 0);
+}
+
+.form-switch:active input:checked + i::after {
+  transform: translate3d(16px, 2px, 0);
+}
+
+.form-switch input {
+  display: none;
+}
+
+.form-switch input:checked + i {
+  background-color: #4bd763;
+}
+
+.form-switch input:checked + i::before {
+  transform: translate3d(18px, 2px, 0) scale3d(0, 0, 0);
+}
+
+.form-switch input:checked + i::after {
+  transform: translate3d(22px, 2px, 0);
+}
+
+@media screen and (max-width: 767px) {
+  #section1 .payment .coluna1 {
+    flex-direction: column;
+  }
+
+  #section1 .payment {
+    padding: 2rem;
+  }
+
+  #section1 .payment .coluna1 input {
+    width: 100%;
+  }
+
+  #section1 .payment .coluna1 img {
+    margin-top: 1rem;
+    width: 100%;
+  }
+
+  #section1 .botao button {
+    width: 100%;
+  }
 }
