@@ -1113,6 +1113,10 @@ footer .icones img {
   #newsletter input {
     padding: 1rem 3rem;
   }
+
+  footer .icones {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 458px) {
@@ -1305,6 +1309,7 @@ footer .icones img {
     margin: auto;
     margin-top: 2rem;
     margin-bottom: 2rem;
+    padding: 2rem !important;
   }
 
   #section3 p {
@@ -1342,6 +1347,10 @@ footer .icones img {
 
   #newsletter input {
     padding: 1rem 3rem;
+  }
+
+  footer .icones {
+    display: none;
   }
 }
 
