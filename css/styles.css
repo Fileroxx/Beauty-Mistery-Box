@@ -572,13 +572,22 @@ button {
 }
 
 #newsletter input {
-  padding: 0.8rem 10rem;
+  padding: 1rem;
+  width: 100%;
   border-radius: 10px;
   background: #383840;
   outline: 0;
   border: 0;
   color: #fff;
   margin-top: 1rem;
+}
+
+#newsletter form button {
+  margin: 0 auto;
+  width: 100%;
+  margin-top: 1rem;
+  color: #5e5e5e;
+  border: 1px solid #5e5e5e !important;
 }
 
 footer {
@@ -651,6 +660,19 @@ footer .icones img {
     width: 250px;
     margin-bottom: 8rem;
     padding: 1rem;
+  }
+
+  #newsletter form input {
+    width: 100%;
+    padding: 1rem 1rem;
+  }
+
+  #newsletter form button {
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 1rem;
+    color: #5e5e5e;
+    border: 1px solid #5e5e5e !important;
   }
 }
 
@@ -750,8 +772,16 @@ footer .icones img {
     width: 700px;
   }
 
+  #newsletter form button {
+    margin: 0 auto !important;
+    width: 100%;
+    margin-top: 1rem !important;
+    color: #5e5e5e;
+    border: 1px solid #5e5e5e !important;
+  }
+
   #newsletter input {
-    padding: 0.8rem 4rem;
+    padding: 0.8rem 4.5rem;
   }
 }
 
@@ -874,6 +904,19 @@ footer .icones img {
 
   #newsletter .suport {
     display: none;
+  }
+
+  #newsletter form button {
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 1rem;
+    color: #5e5e5e;
+    border: 1px solid #5e5e5e !important;
+  }
+
+  #newsletter form input {
+    width: 100%;
+    padding: 1rem 0.5rem;
   }
 
   footer .icones {
@@ -1114,6 +1157,14 @@ footer .icones img {
     padding: 1rem 3rem;
   }
 
+  #newsletter form button {
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 1rem;
+    color: #5e5e5e;
+    border: 1px solid #5e5e5e !important;
+  }
+
   footer .icones {
     display: none;
   }
@@ -1347,6 +1398,14 @@ footer .icones img {
 
   #newsletter input {
     padding: 1rem 3rem;
+  }
+
+  #newsletter form button {
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 1rem;
+    color: #5e5e5e;
+    border: 1px solid #5e5e5e !important;
   }
 
   footer .icones {
